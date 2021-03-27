@@ -10491,3 +10491,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-weight: 500;
 }
 
+/* Quick-zoom Container */
+.img-hover-zoom--quick-zoom img {
+  transform-origin: 0 0;
+  transition: transform .25s, visibility .25s ease-in;
+}
